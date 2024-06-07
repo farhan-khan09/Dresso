@@ -1,0 +1,170 @@
+.mainshipping {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    padding-right: 1rem;
+}
+
+.shippingsidebar {
+    border: 2px solid #459BBF;
+    border-radius: 12px;
+    display: flex;
+    padding-bottom: 1rem;
+    width: 32%;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.shippingsidebar h2 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-family: "Nunito", sans-serif;
+}
+
+.shippingsidebar p {
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.dresscolor2 {
+    font-family: "Nunito", sans-serif;
+    color: #9E9E9E;
+}
+
+.pricemain2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+
+.shippingpage {
+    height: 120px;
+}
+
+
+.shippinginfo ul {
+    color: #9E9E9E;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+
+.shippinginfo ul a {
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+
+.reddress2 {
+    height: 150px;
+    width: 100px;
+}
+
+
+.sidebarimgnotification2 {
+    top: 25px;
+    height: 20px;
+    transform: translateX(-10px);
+    position: relative;
+}
+
+.notificationsnumber2 {
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 24px;
+    font-family: "Nunito", sans-serif;
+    z-index: 10000;
+    color: #ffffff;
+}
+
+.lineinfo2 {
+    width: 100%;
+}
+
+.shippingdetails {
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 63%;
+    margin-top: 1rem;
+    margin-bottom: 12rem;
+
+
+}
+
+.shippingdetails p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    outline: none;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+    border: 1.5px solid #459BBF;
+    border-radius: 10px;
+    color: #9E9E9E;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    align-content: center;
+}
+
+.shippingdetails p span {
+    color: #000000;
+}
+
+
+.shippingmethod {
+    color: #000000;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+
+.continuetomainbtn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.continuemainbutton {
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    letter-spacing: 1px;
+    font-family: "Nunito", sans-serif;
+    width: 25%;
+    border-radius: 12px;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.continuemainbutton a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.recycle {
+    height: 2rem;
+    margin-left: 24rem;
+}

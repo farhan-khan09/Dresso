@@ -1,0 +1,104 @@
+.mainwishlistitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+.mainwishlistitems h1 {
+    font-size: 3rem;
+    font-family: "Brygada 1918", serif;
+    letter-spacing: 3px;
+}
+
+
+
+.mainwishlistitems h1 span {
+    color: #459BBF;
+}
+
+.wishlistpics {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.image8 {
+    width: 400;
+    height: 500px;
+}
+
+.image9 {
+    width: 400;
+    height: 500px;
+}
+
+
+.newlogo {
+    height: 2rem;
+}
+
+.imagediscription {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    width: 75%;
+}
+
+.imagediscription p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+
+.sizeandprice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    padding-top: 0.2rem;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+}
+
+.discriptionmain {
+    border: 1px solid black;
+    font-family: "Nunito", sans-serif;
+    margin-top: -4px;
+}
+
+.sizeandprice p {
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+}
+
+.sizeandprice h6 {
+    color: #808080;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.addtocart {
+    margin-top: 10px;
+    background-color: #000000;
+    padding: 0.7rem;
+    width: 100%;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.addtocart a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.linebottom {
+    padding-bottom: 3rem;
+}

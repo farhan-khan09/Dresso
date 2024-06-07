@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.navbarmain {
+    font-family: "Nunito", sans-serif;
+    height: 19vh;
+    width: 100%;
+    background-color: #393939;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+.logo {
+    height: 90px;
+    margin-top: -10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    gap: 90px;
+
+}
+
+.navbar ul li {
+    position: relative;
+    font-size: 1rem;
+}
+
+.navbarmain ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #FFFFFF;
+    transition: width 0.5s ease;
+}
+
+.navbar ul li a {
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+}
+
+.navbar ul li a:hover:after {
+    width: 100%;
+
+}
+
+
+.firstdivnavbar {
+    display: flex;
+    width: 89%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: -42rem;
+}
+
+.navbaricons {
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+#iconsize {
+    height: 1.5rem;
+}
+
+
+/* Media Quries */
+
+@media screen and (max-width: 1350px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+}

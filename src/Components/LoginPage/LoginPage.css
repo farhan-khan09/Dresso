@@ -1,0 +1,147 @@
+.loginpage {
+    display: flex;
+    padding-block: 10rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.loginpagepic {
+    width: 528px;
+    height: 670px;
+    transform: translateX(13px);
+}
+
+.loginformmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    padding-top: 8rem;
+    border: 1px solid black;
+}
+
+
+.loginformmain h1 {
+    font-size: 2rem;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+.loginpara {
+    font-size: 1rem;
+    color: gray;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    margin-top: 0.5rem;
+    text-align: center;
+
+}
+
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+.formmain {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+}
+
+.input-group label {
+    font-family: "Nunito", sans-serif;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+    outline: none;
+    background-color: #D9D9D9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.loginbtn {
+    background-color: #393939;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+loginbtn a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+loginbtn:hover {
+    background-color: #393939;
+}
+
+.forgetpswd {
+    display: flex;
+    color: #459BBF;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
+    justify-content: flex-end;
+}
+
+.forgetpswd a {
+    text-decoration: none;
+    color: #459BBF;
+}
+
+
+.linemain {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.createaccount {
+    font-size: 1.2rem;
+    font-family: "Nunito", sans-serif;
+    color: #459BBF;
+    padding: 1rem;
+}
+
+
+.createaccount a {
+    text-decoration: none;
+    color: #459BBF;
+}
+
+.privacypolicylogin {
+    color: #459BBF;
+}
+
+.lastline {
+    padding-bottom: 5rem;
+}

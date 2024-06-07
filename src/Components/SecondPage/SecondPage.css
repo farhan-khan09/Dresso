@@ -1,0 +1,51 @@
+.secondpagemain {
+    background-color: #f5f5f5;
+    padding-inline: 3rem;
+    padding-top: 4rem;
+
+
+}
+
+.newarivalmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-top: 3rem;
+}
+
+.newarivalmain h1 {
+    font-family: "Brygada 1918", serif;
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+
+.height {
+    height: 3.5rem;
+}
+
+.picturesmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+
+.picture1 {
+    height: 42rem;
+}
+
+.picture2 {
+    height: 43rem;
+}
+
+.yellowsuit {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: left;
+}

@@ -1,0 +1,338 @@
+.maincartinfopage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    padding-right: 1rem;
+}
+
+.infosidebar {
+    border: 2px solid #459BBF;
+    border-radius: 12px;
+    display: flex;
+    padding-bottom: 1rem;
+    width: 32%;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.infosidebar h2 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-family: "Nunito", sans-serif;
+}
+
+.infosidebar p {
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.dresscolor {
+    font-family: "Nunito", sans-serif;
+    color: #9E9E9E;
+}
+
+.pricemain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+
+.logoinfopage {
+    height: 120px;
+}
+
+
+.infonav ul {
+    color: #9E9E9E;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+.infonav ul a {
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+
+.reddress {
+    height: 150px;
+    width: 100px;
+}
+
+
+.sidebarimgnotification {
+    top: 25px;
+    height: 20px;
+    transform: translateX(-10px);
+    position: relative;
+}
+
+.notificationsnumber {
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 24px;
+    font-family: "Nunito", sans-serif;
+    z-index: 10000;
+    color: #ffffff;
+}
+
+.lineinfo {
+    width: 100%;
+}
+
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    margin-top: -2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact {
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-family: "Nunito", sans-serif;
+    color: #808080;
+}
+
+
+.emailinputcartinfo input {
+    margin-top: 0.5em;
+    width: 67%;
+    padding: 16px;
+    outline: none;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+    border: 2px solid #459BBF;
+    border-radius: 10px;
+    color: #9E9E9E;
+    font-size: 1.5rem;
+}
+
+.emailme {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 18px;
+    letter-spacing: 2px;
+    font-family: "Nunito", sans-serif;
+    color: #808080;
+}
+
+
+.shippingaddress {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: "Nunito", sans-serif;
+    color: #000000;
+}
+
+
+
+.dropdown-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #808080;
+}
+
+label {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Nunito", sans-serif;
+    margin-right: 10px;
+}
+
+select {
+    padding: 18px;
+    font-size: 20px;
+    border: 2px solid #459BBF;
+    font-family: "Nunito", sans-serif;
+    border-radius: 10px;
+    width: 67%;
+    outline: none;
+    transition: border-color 0.2s;
+    letter-spacing: 1.5px;
+}
+
+select:focus {
+    border-color: #007bff;
+}
+
+
+.informationinputsmain {
+    margin-top: 3rem;
+}
+
+
+.fname input {
+    width: 140%;
+    font-family: "Nunito", sans-serif;
+    padding: 12px;
+    font-size: 16px;
+    outline: none;
+    background-color: #ffffff;
+    border: 2px solid #459BBF;
+    border-radius: 4px;
+}
+
+.fname label {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.lname input {
+    width: 140%;
+    padding: 12px;
+    font-size: 16px;
+    outline: none;
+    background-color: #ffffff;
+    border: 2px solid #459BBF;
+    font-family: "Nunito", sans-serif;
+    border-radius: 4px;
+}
+
+.lname label {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.firstrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 58%;
+}
+
+
+.address input {
+    margin-top: 1.5em;
+    width: 68%;
+    padding: 12px;
+    outline: none;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+    border: 1.5px solid #459BBF;
+    border-radius: 10px;
+    color: #9E9E9E;
+    font-size: 1.5rem;
+}
+
+
+
+.secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 58%;
+    margin-top: 2rem;
+}
+
+
+
+.city input {
+    width: 173%;
+    font-family: "Nunito", sans-serif;
+    padding: 12px;
+    outline: none;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 2px solid #459BBF;
+    border-radius: 4px;
+}
+
+.city label {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.postalcode input {
+    width: 140%;
+    padding: 12px;
+    outline: none;
+    background-color: #ffffff;
+    border: 2px solid #459BBF;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    border-radius: 4px;
+}
+
+.postalcode label {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+
+.phone input {
+    margin-top: 1.5em;
+    width: 68%;
+    padding: 12px;
+    outline: none;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+    border: 1.5px solid #459BBF;
+    border-radius: 10px;
+    color: #9E9E9E;
+    font-size: 1.5rem;
+}
+
+
+.caution {
+    color: red;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+.conitnuebtnmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 67%;
+}
+
+.continuebtn {
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    letter-spacing: 1px;
+    font-family: "Nunito", sans-serif;
+    width: 25%;
+    border-radius: 12px;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+
+
+.continuebtn a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.lastlinecartinfo {
+    padding-bottom: 5rem;
+}

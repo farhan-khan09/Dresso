@@ -1,0 +1,169 @@
+.paymentmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    padding-right: 1rem;
+}
+
+.paymentsidebar {
+    border: 2px solid #459BBF;
+    border-radius: 12px;
+    display: flex;
+    padding-bottom: 1rem;
+    width: 32%;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.paymentsidebar h2 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-family: "Nunito", sans-serif;
+}
+
+.paymentsidebar p {
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.dresscolor3 {
+    font-family: "Nunito", sans-serif;
+    color: #9E9E9E;
+}
+
+.pricemain3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+
+.paymentpage {
+    height: 120px;
+}
+
+
+.paymentinfo ul {
+    color: #9E9E9E;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+
+.paymentinfo ul a {
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+
+.reddress3 {
+    height: 150px;
+    width: 100px;
+}
+
+
+.sidebarimgnotification3 {
+    top: 25px;
+    height: 20px;
+    transform: translateX(-10px);
+    position: relative;
+}
+
+.notificationsnumber3 {
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 24px;
+    font-family: "Nunito", sans-serif;
+    z-index: 10000;
+    color: #ffffff;
+}
+
+.lineinfo3 {
+    width: 100%;
+}
+
+.paymentinfodetail {
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 61%;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid #459BBF;
+}
+
+.paymentinfodetail p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    outline: none;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+    color: #9E9E9E;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    align-content: center;
+}
+
+.paymentinfodetail p span {
+    color: #4D4D4D;
+}
+
+.recycle2 {
+    height: 2rem;
+    margin-left: 22rem;
+}
+
+.shippingmethod2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    outline: none;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+    color: #9E9E9E;
+    gap: 60px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    align-content: center;
+}
+
+.shippingmethod2 span {
+    color: #4D4D4D;
+    font-weight: 500;
+}
+
+.paymenttransactionmain {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5rem;
+}
+
+.paymentara {
+    color: #000000;
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+}

@@ -1,0 +1,71 @@
+.fourthpagemain {
+    background-color: #f5f5f5;
+    padding-inline: 3rem;
+    margin-top: -3rem;
+}
+
+
+.previouscollection {
+    font-family: "Brygada 1918", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.showcollecmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    letter-spacing: -1px;
+
+}
+
+.para {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #5E5555;
+}
+
+.showallbtn {
+    padding: 10px;
+    font-size: 1rem;
+    border: 3px solid #5E5555;
+    border-radius: 5px;
+    margin-top: 0.8rem;
+    align-items: center;
+    font-weight: 500;
+    display: flex;
+    gap: 15px;
+}
+
+.showallbtn a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.arrowimg {
+    height: 0.7rem;
+}
+
+.twoimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+}
+
+.twoimages img {
+    height: 55vh;
+}
+
+.twoimages {
+    font-size: 1.5rem;
+    color: #5E5555;
+    font-family: "Brygada 1918", serif;
+    font-weight: 600;
+}
